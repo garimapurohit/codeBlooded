@@ -23,7 +23,7 @@ export function WelcomeCard({ name, className }: WelcomeCardProps) {
       </div>
       
       <div className="relative z-10 p-6">
-        <div className="mb-4 text-sm text-blue-300">Welcome back,</div>
+        <div className="mb-4 text-sm text-blue-300">Welcome</div>
         <h3 className="mb-1 text-2xl font-bold text-white">{name}</h3>
         <p className="mb-4 text-sm text-blue-300">Glad to see you again!<br />Ask me anything.</p>
         

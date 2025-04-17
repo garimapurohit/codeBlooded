@@ -43,18 +43,28 @@ export function Sidebar({ className }: SidebarProps) {
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <a href="#" className="flex items-center">
-                    <FileText size={18} />
-                    <span className="ml-2">Tables</span>
-                  </a>
+                <a
+  href="#"
+  onClick={() => (window.location.href = 'http://10.66.66.1:8096')}
+  className="flex items-center"
+>
+  <FileText size={18} />
+  <span className="ml-2">Media Server</span>
+</a>
+
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <a href="#" className="flex items-center">
-                    <CreditCard size={18} />
-                    <span className="ml-2">Billing</span>
-                  </a>
+                <a
+  href="#"
+  onClick={() => (window.location.href = 'http://10.66.66.1:8081')}
+  className="flex items-center"
+>
+  <CreditCard size={18} />
+  <span className="ml-2">Cloud Storage</span>
+</a>
+
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
